@@ -1,0 +1,17 @@
+.matrix {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  max-width: 450px;
+  height: 450px;
+  list-style: none;
+}
+
+.matrix__row {
+  border: 1px solid;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
